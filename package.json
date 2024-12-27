@@ -1,0 +1,22 @@
+{
+  "name": "@nextpwa/react",
+  "version": "0.1.0",
+  "description": "NextPwa React Package",
+  "main": "index.js",
+  "repository": "git@github.com:nextpwa/react.git",
+  "author": "NextCart Commerce",
+  "license": "MIT",
+  "sideEffects": false,
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+  "peerDependencies": {
+    "@mui/material": "^latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
+}
